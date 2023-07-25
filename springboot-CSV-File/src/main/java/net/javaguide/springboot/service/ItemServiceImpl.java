@@ -57,11 +57,6 @@ public class ItemServiceImpl implements ItemService {
 			csvRecord.get("item_name"),csvRecord.get("category"), csvRecord.get("description"), 
 			csvRecord.get("original_price"), csvRecord.get("discount_price"), 
 			csvRecord.get("quantity"), csvRecord.get("message"), csvRecord.get("store_id"));
-//			
-//		Item item = new Item(Long.parseLong(csvRecord.get("item_code")),csvRecord.get("item_name")
-//			,csvRecord.get("category"),csvRecord.get("description"),csvRecord.get("original_price"),
-//			csvRecord.get("discount_price"),csvRecord.get("quantity"));
-//			//csvRecord.get("store_id"));
 		items.add(item);
 		}
 		return items;
