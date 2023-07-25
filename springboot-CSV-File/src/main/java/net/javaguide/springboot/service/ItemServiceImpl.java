@@ -59,6 +59,7 @@ public class ItemServiceImpl implements ItemService {
 			csvRecord.get("quantity"), csvRecord.get("message"), csvRecord.get("store_id"));
 		items.add(item);
 		
+		
 		}
 		return items;
 	}catch (Exception e) {
