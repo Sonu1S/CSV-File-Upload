@@ -13,13 +13,13 @@ import org.springframework.web.multipart.MultipartFile;
 import net.javaguide.springboot.response.ResponseMessage;
 import net.javaguide.springboot.service.ItemService;
 
-@RestController
+@RestController   //youTube channel name is LearnCodeWithNav video Size is //35:58 sec
 @RequestMapping("/files")
 public class ItemController {
     @Autowired
 	private ItemService service;
 
-    @PostMapping("/upload")
+    @PostMapping("/upload")  //url is //localhost:8081/files/upload
     public ResponseEntity<ResponseMessage> uploadFile(@RequestParam("file") MultipartFile file
 //    		@RequestParam("itemcode") String itemCode,
 //            @RequestParam("itemName") String itemName,//itemcode

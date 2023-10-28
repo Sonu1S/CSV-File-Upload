@@ -8,6 +8,8 @@ public class SpringbootCsvFileApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootCsvFileApplication.class, args);
+
+		System.out.println("CSV File Upload");
 	}
 
 }
